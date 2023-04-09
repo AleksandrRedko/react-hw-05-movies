@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  margin-bottom: 35px;
+}
+.image {
+  width: 305px;
+}
+.imgContainer {
+  min-width: 305px;
+  margin-right: 30px;
+}
+.information {
+  padding: 15px;
+}
+.name {
+  font-size: 30px;
+  line-height: 1.17;
+  margin-bottom: 20px;
+}
+.overview {
+  font-size: 25px;
+
+  margin-bottom: 20px;
+}
+.overview_text {
+  font-size: 20px;
+  line-height: 1.17;
+  margin-bottom: 20px;
+}
+.list {
+  display: flex;
+}
+.item {
+  font-size: 20px;
+
+  margin-bottom: 20px;
+}
+.item:not(:last-child) {
+  margin-right: 10px;
+}
+.link {
+  display: inline-block;
+  min-width: 136px;
+  padding: 14px 12px 10px;
+  background-color: orangered;
+  border: 1px solid orangered;
+  font-size: 12px;
+  border-radius: 5px;
+  text-align: center;
+
+  line-height: 1.33;
+  text-transform: uppercase;
+  color: #fff;
+}
+.back {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 0;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.back:hover {
+  color: orangered;
+}
